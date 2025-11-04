@@ -202,7 +202,7 @@ namespace AnotisApp
             btnCargarNota_Click(sender, e);
         }
 
-        // ============= MÉTODOS AUXILIARES =============
+        // Metodos Auxiliares
 
         // Valida que haya una nota seleccionada en el historial
         private bool ValidarSeleccion(string accion)
