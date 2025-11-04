@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Anotis));
             this.tituloTexto = new System.Windows.Forms.TextBox();
             this.notaTexto = new System.Windows.Forms.TextBox();
             this.tituloLabel = new System.Windows.Forms.Label();
@@ -155,8 +156,8 @@
             this.Controls.Add(this.tituloLabel);
             this.Controls.Add(this.notaTexto);
             this.Controls.Add(this.tituloTexto);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Anotis";
-            this.ShowIcon = false;
             this.Text = "Anotis";
             this.Load += new System.EventHandler(this.Anotis_Load);
             ((System.ComponentModel.ISupportInitialize)(this.historialDeNotas)).EndInit();

@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("AnotisApp")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Herramienta de notas rapidas.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Proyecto de UNICDA:Lenguajes de Programacion I - Grupo #5")]
 [assembly: AssemblyProduct("AnotisApp")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Copyright © 2025 Grupo #5 - UNICDA:Lenguajes de Programacion I")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
